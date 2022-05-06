@@ -49,36 +49,45 @@ const App = () => {
       </header>
       <main>
         <section>
+          <h2 className={styles.srOnly}>What we can do</h2>
           <div className={styles.textGrid}>
-            <h1>Transform your brand</h1>
+            <h3>Transform your brand</h3>
             <p>
               We are a full-service creative agency speciallizing in helping
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
-            <span className={styles.learnMoreLink} id={styles.yellowLearnMore}>
-              <a href="#">
-                <div className={styles.underline}></div>LEARN MORE
+            <span>
+              <a
+                href="#"
+                className={styles.learnMoreLink}
+                id={styles.yellowLearnMore}
+              >
+                LEARN MORE
               </a>
             </span>
           </div>
           <div id={styles.transform}></div>
           <div id={styles.standOut}></div>
           <div className={styles.textGrid}>
-            <h1>Stand out to the right audience</h1>
+            <h3>Stand out to the right audience</h3>
             <p>
               Using a collaborative formula of designers, researchers,
               photographers, videographers, and copywriters, we'll build and
               extend your brand in digital places.
             </p>
-            <span className={styles.learnMoreLink} id={styles.redLearnMore}>
-              <a href="#">
-                <div className={styles.underline}></div>LEARN MORE
+            <span>
+              <a
+                href="#"
+                className={styles.learnMoreLink}
+                id={styles.redLearnMore}
+              >
+                LEARN MORE
               </a>
             </span>
           </div>
           <div id={styles.graphicDesign}>
-            <h1>Graphic Design</h1>
+            <h3>Graphic Design</h3>
             <p>
               Great design makes you memorable. We deliver artwork that
               underscores your brand message and captures potential clients'
@@ -86,7 +95,7 @@ const App = () => {
             </p>
           </div>
           <div id={styles.photography}>
-            <h1>Photography</h1>
+            <h3>Photography</h3>
             <p>
               Increase your credibility by getting the most stunning,
               high-quality photos that improve your business image.
@@ -94,7 +103,7 @@ const App = () => {
           </div>
         </section>
         <section>
-          <h1>CLIENT TESTIMONIALS</h1>
+          <h2>CLIENT TESTIMONIALS</h2>
           <div className={styles.testimonials}>
             <div className={styles.testimonial}>
               <img src={emily} alt="Emily R." />
@@ -126,6 +135,7 @@ const App = () => {
           </div>
         </section>
         <section>
+          <h2 className={styles.srOnly}>Example Pictures</h2>
           <div id={styles.milkBottle}></div>
           <div id={styles.orange}></div>
           <div id={styles.cone}></div>
@@ -134,25 +144,45 @@ const App = () => {
       </main>
       <footer>
         <Logo />
-        <nav>
+        <div>
           <a href="#">About</a>
           <a href="#">Services</a>
           <a href="#">Projects</a>
-        </nav>
-        <nav className={styles.socialLinks}>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer">
+        </div>
+        <div className={styles.socialLinks}>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Facebook"
+          >
             <Facebook />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
             <Instagram />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Twitter"
+          >
             <Twitter />
           </a>
-          <a href="https://pinterest.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://pinterest.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Pinterest"
+          >
             <Pinterest />
           </a>
-        </nav>
+        </div>
       </footer>
     </div>
   );
