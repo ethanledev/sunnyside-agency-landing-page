@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/hieuhmle/sunnyside-agency-landing-page)
-- Live Site URL: [Live site](https://hieuhmle.github.io/sunnyside-agency-landing-page)
+- Solution URL: [Github Repo](https://github.com/hieulecoder/sunnyside-agency-landing-page)
+- Live Site URL: [Live site](https://hieulecoder.github.io/sunnyside-agency-landing-page)
 
 ## My process
 
